@@ -4,4 +4,26 @@ header {
   z-index: 999;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#logo-img {
+  size: 50rem;
+}
+
+.navigation a {
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navigation {
+  padding-right: 70px;
+}
+
+.main {
+  width: 100%;
+  background-image: url(images/background-image.jpeg);
 }
